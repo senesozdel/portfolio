@@ -35,6 +35,34 @@ const ProjectCard = ({ title, technologies, description, features, projectLink }
 const Portfolio = () => {
   const projects = [
     {
+      title: "Chat App Projesi",
+      technologies: "SignalR, Backblaze, React JS, .NET Core Web API, MongoDB, Redux Toolkit, Hangfire ",
+      description: "SignalR socket ile real-time iletişim sağlayan chat uygulaması.",
+      features: [
+        "Backend: .NET Core Web API ile REST servisleri",
+        "Hangfire ile backgroundjobs işlemleri",
+        "JWT tabanlı güvenlik sistemi",
+        "Backblaze ile cloud storage işlemleri",
+        "SignalR ile ortak hub yapısı",
+        "Veritabanı: MongoDB",
+        "Frontend: React JS ve Redux Toolkit ile state yönetimi",
+        "AntDesign ile kullanıcı bildirimleri",
+      ],
+      projectLink: "https://drive.google.com/file/d/131D51leFFI6lb7n0gX7-btogjLGAkuX9/view?usp=sharing" 
+    },
+    {
+      title: "Google Flights List Projesi",
+      technologies: "Sky Scrapper API, React JS, Redux Toolkit,  ",
+      description: "Sky Scrapper API entegrasyonu ile uçak arama listeleme uygulaması.",
+      features: [
+        "API: Sky Scrapper flights API entegrasyonu",
+        "UI: Google Flights arayüzünden esinlenerek oluşturudu",
+        "Frontend: React JS ve Redux Toolkit ile state yönetimi",
+        "Metarial UI, CSS frameworku ile stillendirme yapıldı",
+      ],
+      projectLink: "https://drive.google.com/file/d/19PTRcYxv_u4o35k3acNiO6lix0wIp7Kq/view?usp=drive_link"
+    },
+    {
         title: "Chart Analiz Projesi",
         technologies: "React JS, .NET Core Web API, SQL Server, Redux Toolkit, React-Chart.js, ADO.NET",
         description: "SQL Server veritabanından alınan verileri dinamik olarak görselleştiren, filtreleme ve analiz imkanı sunan modern web uygulaması.",
@@ -46,7 +74,7 @@ const Portfolio = () => {
           "Toastify ile kullanıcı bildirimleri",
           "React-Select ile gelişmiş filtreleme özellikleri",
         ],
-        projectLink: "https://drive.google.com/file/d/1wHFFFLGGPpap46j3C8ZIP1HCLyowfgzo/view?usp=drive_link" // Projenin gerçek linkini buraya ekleyebilirsiniz
+        projectLink: "https://drive.google.com/file/d/1wHFFFLGGPpap46j3C8ZIP1HCLyowfgzo/view?usp=drive_link"
       }
       ,
     {
@@ -77,7 +105,7 @@ const Portfolio = () => {
           "Admin paneli ile tam CRUD operasyonları",
           "Responsive ve kullanıcı dostu arayüz"
         ],
-        projectLink: "https://drive.google.com/file/d/16P2TIVAUNbf2gww3tOHvsdfqRTEB1y-p/view?usp=drive_link" // Projenin gerçek linkini buraya ekleyebilirsiniz
+        projectLink: "https://drive.google.com/file/d/16P2TIVAUNbf2gww3tOHvsdfqRTEB1y-p/view?usp=drive_link" 
       }
       ,
     {
@@ -94,7 +122,7 @@ const Portfolio = () => {
           "Responsive tasarım ile modern kullanıcı arayüzü",
           "Session yönetimi ve güvenli API entegrasyonu"
         ],
-        projectLink: "https://drive.google.com/file/d/1gJSMaG5CiTXfsj8dKWBZJkrYzzcxnUMS/view?usp=drive_link" // Projenin gerçek linkini buraya ekleyebilirsiniz
+        projectLink: "https://drive.google.com/file/d/1gJSMaG5CiTXfsj8dKWBZJkrYzzcxnUMS/view?usp=drive_link" 
       }
       ,
     {
